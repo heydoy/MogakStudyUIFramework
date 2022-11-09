@@ -15,7 +15,7 @@ enum ButtonStatus {
     case disable
 }
 
-enum ButtonHeight: Int {
+enum ButtonHeight: CGFloat {
     case h48 = 48
     case h40 = 40
     case h32_Icon = 32
