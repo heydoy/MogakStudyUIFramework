@@ -10,28 +10,28 @@ import UIKit
 
 extension UIColor {
     
-    struct msColor {
+    public struct msColor {
         // Black & White
-        static let white = UIColor(hexString: "FFFFFF")
-        static let black = UIColor(hexString: "333333")
+        static let white = UIColor(hexString: "#FFFFFF")!
+        static let black = UIColor(hexString: "#333333")!
         // Brand Color
-        static let brandGreen = UIColor(hexString: "49DC92")
-        static let brandWhiteGreen = UIColor(hexString: "CDF4E1")
-        static let brandYellowGreen = UIColor(hexString: "B2EB61")
+        static let brandGreen = UIColor(hexString: "#49DC92")!
+        static let brandWhiteGreen = UIColor(hexString: "#CDF4E1")!
+        static let brandYellowGreen = UIColor(hexString: "#B2EB61")!
         
         // Grayscale
-        static let gray001 = UIColor(hexString: "888888")
-        static let gray002 = UIColor(hexString: "AAAAAA")
-        static let gray003 = UIColor(hexString: "BDBDBD")
-        static let gray004 = UIColor(hexString: "D1D1D1")
-        static let gray005 = UIColor(hexString: "E2E2E2")
-        static let gray006 = UIColor(hexString: "EFEFEF")
-        static let gray007 = UIColor(hexString: "F7F7F7")
+        static let gray001 = UIColor(hexString: "#888888")!
+        static let gray002 = UIColor(hexString: "#AAAAAA")!
+        static let gray003 = UIColor(hexString: "#BDBDBD")!
+        static let gray004 = UIColor(hexString: "#D1D1D1")!
+        static let gray005 = UIColor(hexString: "#E2E2E2")!
+        static let gray006 = UIColor(hexString: "#EFEFEF")!
+        static let gray007 = UIColor(hexString: "#F7F7F7")!
         
         // SystemColor
-        static let systemSuccess = UIColor(hexString: "628FE5")
-        static let systemError = UIColor(hexString: "E9666B")
-        static let systemFocus = UIColor(hexString: "333333")
+        static let systemSuccess = UIColor(hexString: "#628FE5")!
+        static let systemError = UIColor(hexString: "#E9666B")!
+        static let systemFocus = UIColor(hexString: "#333333")!
     }
 }
 
