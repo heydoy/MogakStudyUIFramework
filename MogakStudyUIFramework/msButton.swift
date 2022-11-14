@@ -63,7 +63,7 @@ open class msButton: UIButton {
         fatalError("init(coder:) has not been implemented")
     }
     
-    required public init(status: ButtonStatusColor, height: ButtonHeight, icon: ButtonIcon) {
+    required public init(status: ButtonStatusColor) {
         super.init(frame: CGRect.zero)
         
         backgroundColor = status.backgroundColor
