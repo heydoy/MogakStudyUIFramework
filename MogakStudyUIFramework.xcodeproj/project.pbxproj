@@ -7,11 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A29329FA292006030044816B /* msInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29329F9292006030044816B /* msInput.swift */; };
 		A2FB6D2A291B23CA003EF7F9 /* MogakStudyUIFramework.docc in Sources */ = {isa = PBXBuildFile; fileRef = A2FB6D29291B23CA003EF7F9 /* MogakStudyUIFramework.docc */; };
 		A2FB6D30291B23CB003EF7F9 /* MogakStudyUIFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2FB6D25291B23CA003EF7F9 /* MogakStudyUIFramework.framework */; };
 		A2FB6D35291B23CB003EF7F9 /* MogakStudyUIFrameworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FB6D34291B23CB003EF7F9 /* MogakStudyUIFrameworkTests.swift */; };
 		A2FB6D36291B23CB003EF7F9 /* MogakStudyUIFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = A2FB6D28291B23CA003EF7F9 /* MogakStudyUIFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A2FB6D40291B261B003EF7F9 /* msButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FB6D3F291B261B003EF7F9 /* msButtons.swift */; };
+		A2FB6D40291B261B003EF7F9 /* msButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FB6D3F291B261B003EF7F9 /* msButton.swift */; };
 		A2FB6D42291B2770003EF7F9 /* msColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2FB6D41291B2770003EF7F9 /* msColor.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,12 +27,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A29329F9292006030044816B /* msInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = msInput.swift; sourceTree = "<group>"; };
 		A2FB6D25291B23CA003EF7F9 /* MogakStudyUIFramework.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MogakStudyUIFramework.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2FB6D28291B23CA003EF7F9 /* MogakStudyUIFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MogakStudyUIFramework.h; sourceTree = "<group>"; };
 		A2FB6D29291B23CA003EF7F9 /* MogakStudyUIFramework.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = MogakStudyUIFramework.docc; sourceTree = "<group>"; };
 		A2FB6D2F291B23CB003EF7F9 /* MogakStudyUIFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MogakStudyUIFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2FB6D34291B23CB003EF7F9 /* MogakStudyUIFrameworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MogakStudyUIFrameworkTests.swift; sourceTree = "<group>"; };
-		A2FB6D3F291B261B003EF7F9 /* msButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = msButtons.swift; sourceTree = "<group>"; };
+		A2FB6D3F291B261B003EF7F9 /* msButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = msButton.swift; sourceTree = "<group>"; };
 		A2FB6D41291B2770003EF7F9 /* msColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = msColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -76,7 +78,8 @@
 			isa = PBXGroup;
 			children = (
 				A2FB6D28291B23CA003EF7F9 /* MogakStudyUIFramework.h */,
-				A2FB6D3F291B261B003EF7F9 /* msButtons.swift */,
+				A29329F9292006030044816B /* msInput.swift */,
+				A2FB6D3F291B261B003EF7F9 /* msButton.swift */,
 				A2FB6D41291B2770003EF7F9 /* msColor.swift */,
 				A2FB6D29291B23CA003EF7F9 /* MogakStudyUIFramework.docc */,
 			);
@@ -200,8 +203,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A29329FA292006030044816B /* msInput.swift in Sources */,
 				A2FB6D2A291B23CA003EF7F9 /* MogakStudyUIFramework.docc in Sources */,
-				A2FB6D40291B261B003EF7F9 /* msButtons.swift in Sources */,
+				A2FB6D40291B261B003EF7F9 /* msButton.swift in Sources */,
 				A2FB6D42291B2770003EF7F9 /* msColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
