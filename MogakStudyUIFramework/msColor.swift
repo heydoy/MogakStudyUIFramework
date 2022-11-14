@@ -12,26 +12,26 @@ extension UIColor {
     
     public struct msColor {
         // Black & White
-        static let white = UIColor(hexString: "#FFFFFF")!
-        static let black = UIColor(hexString: "#333333")!
+        public static let white = UIColor(hexString: "#FFFFFF")!
+        public static let black = UIColor(hexString: "#333333")!
         // Brand Color
-        static let brandGreen = UIColor(hexString: "#49DC92")!
-        static let brandWhiteGreen = UIColor(hexString: "#CDF4E1")!
-        static let brandYellowGreen = UIColor(hexString: "#B2EB61")!
+        public static let brandGreen = UIColor(hexString: "#49DC92")!
+        public static let brandWhiteGreen = UIColor(hexString: "#CDF4E1")!
+        public static let brandYellowGreen = UIColor(hexString: "#B2EB61")!
         
         // Grayscale
-        static let gray001 = UIColor(hexString: "#F7F7F7")!
-        static let gray002 = UIColor(hexString: "#EFEFEF")!
-        static let gray003 = UIColor(hexString: "#E2E2E2")!
-        static let gray004 = UIColor(hexString: "#D1D1D1")!
-        static let gray005 = UIColor(hexString: "#BDBDBD")!
-        static let gray006 = UIColor(hexString: "#AAAAAA")!
-        static let gray007 = UIColor(hexString: "#888888")!
+        public static let gray001 = UIColor(hexString: "#F7F7F7")!
+        public static let gray002 = UIColor(hexString: "#EFEFEF")!
+        public static let gray003 = UIColor(hexString: "#E2E2E2")!
+        public static let gray004 = UIColor(hexString: "#D1D1D1")!
+        public static let gray005 = UIColor(hexString: "#BDBDBD")!
+        public static let gray006 = UIColor(hexString: "#AAAAAA")!
+        public static let gray007 = UIColor(hexString: "#888888")!
         
         // SystemColor
-        static let systemSuccess = UIColor(hexString: "#628FE5")!
-        static let systemError = UIColor(hexString: "#E9666B")!
-        static let systemFocus = UIColor(hexString: "#333333")!
+        public static let systemSuccess = UIColor(hexString: "#628FE5")!
+        public static let systemError = UIColor(hexString: "#E9666B")!
+        public static let systemFocus = UIColor(hexString: "#333333")!
     }
 }
 
